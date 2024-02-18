@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Preferences">
+        <MultiSelectListPreference
+            android:defaultValue="@android:array/imProtocols"
+            android:entries="@array/dietList"
+            android:entryValues="@array/dietList"
+            android:key="multi_select_list_preference_1"
+            android:title="Diets"
+            android:summary="Click here to update your diet preferences."/>
+
+        <MultiSelectListPreference
+            android:defaultValue="@android:array/imProtocols"
+            android:entries="@array/allergyList"
+            android:entryValues="@array/allergyList"
+            android:key="multi_select_list_preference_2"
+            android:title="Allergies"
+            android:summary="Click here to update your allergies."/>
+
+        <MultiSelectListPreference
+            android:defaultValue="@android:array/imProtocols"
+            android:entries="@array/preferredProteins"
+            android:entryValues="@array/preferredProteins"
+            android:key="multi_select_list_preference_3"
+            android:title="Preferred Protein"
+            android:summary="Click to update your preferred proteins."/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Settings">
+        <Preference
+            android:title="Change Username"
+            android:summary="Click here to change your username."
+            android:key="changeUsernameBtn"/>
+        <Preference
+            android:title="Logout"
+            android:key="@string/logOutButton"
+            android:summary="Logout of your account."
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

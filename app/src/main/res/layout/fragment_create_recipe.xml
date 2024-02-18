@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/backgroundYellow"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a Recipe:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:fontFamily="@font/playfair"
+        android:background="@color/lightyellow"
+        android:padding="3dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/recipeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Recipe Title: "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:fontFamily="@font/playfair"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/lightyellow"/>
+
+            <EditText
+                android:id="@+id/editRecipeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Recipe Title"
+                android:textColor="@color/black"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="44dp" />
+
+            <TextView
+                android:id="@+id/ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Ingredients: "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:fontFamily="@font/playfair"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/lightyellow"/>
+
+            <Button
+                android:id="@+id/addIngredient"
+                android:layout_width="165dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundcorneryellow"
+                android:text="Add ingredient"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/playfair"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ingredient_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/instructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instructions: "
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/playfair"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="@color/lightyellow"/>
+
+            <Button
+                android:id="@+id/addInstruction"
+                android:layout_width="165dp"
+                android:layout_height="50dp"
+                android:text="Add step"
+                android:background="@drawable/roundcorneryellow"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/playfair"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/instruction_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/saveRecipe"
+                android:layout_width="165dp"
+                android:layout_height="50dp"
+                android:text="Save Recipe"
+                android:padding="8dp"
+                android:background="@drawable/roundcorneryellow"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/playfair"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

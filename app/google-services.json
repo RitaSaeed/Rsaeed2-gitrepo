@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014108307805",
+    "project_id": "cookingovereasy-48e77",
+    "storage_bucket": "cookingovereasy-48e77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014108307805:android:74899bb7988882e8f768b4",
+        "android_client_info": {
+          "package_name": "com.example.cookingovereasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014108307805-or262dmq5lp0fdru86b72otulqa2h6in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHT2nnIa3gJA1jTtB58hbrwzIivorpdgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014108307805-or262dmq5lp0fdru86b72otulqa2h6in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

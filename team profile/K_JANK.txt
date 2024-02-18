@@ -1,0 +1,9 @@
+Karen Jank
+Year: Junior
+Major: Computer Science with a concentration in Software Engineering
+
+Sprint 1: 
+	Role: Assistant Project Manager
+	- added slide functionality from welcome screen to login screen, worked on settings and preferences, log out 	functionality
+Sprint 2:
+Sprint 3:

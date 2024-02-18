@@ -1,0 +1,8 @@
+Tyler Chitwood
+Junior
+CS-Software Engineering
+
+Sprint 1 - (developer)
+	- Created the login and register screen, connected the app with the firebase authentication system, added the app logo
+Sprint 2-
+Sprint 3-

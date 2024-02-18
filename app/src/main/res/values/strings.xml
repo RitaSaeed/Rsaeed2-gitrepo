@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">CookingOverEasy</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="logout">Logout</string>
+    <string name="get_started">Get Started!</string>
+    <string name="splash">Splash</string>
+    <string name="splashScreenAlt">Splash screen with app logo.</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Search fragment strings -->
+    <string name="searchName">Name</string>
+    <string name="searchCategory">Category</string>
+    <string name="searchDescription">Description</string>
+
+    <string name="head_1">Five Cheese Pizza</string>
+    <string name="head_2">Beef Stroganoff</string>
+    <string name="head_3">Honey Garlic Glazed Salmon</string>
+    <string name="head_4">Barbacoa Beef Tacos</string>
+    <string name="head_5">Blue Crab Bisque</string>
+    <string name="head_6">Gumbo</string>
+    <string name="head_7">Pot Roast</string>
+    <string name="head_8">Mapo Tofu</string>
+    <string name="head_9">Tomato and Herb Focaccia</string>
+    <string name="head_10">Spaghetti Carbonara</string>
+    <string name="head_11">Classic Parmesan Risotto</string>
+    <string name="head_12">Eat-The-Rainbow Chopped Salad</string>
+
+    <string name="welcomeMessage">Welcome to Cooking Over Easy!</string>
+    <string name="logOutButton">logOutButton</string>
+    <string name="loginBackground">Login Background Picture</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="registerNow">Register Now</string>
+    <string name="loginButton">Login Button</string>
+    <string name="sendReset">Send Reset</string>
+    <string name="backToLogin">Go Back To Login</string>
+    <string name="forgotPasswordHeading">Forgot Password?</string>
+    <string name="welcomeBackgroundDesc">Welcome background picture</string>
+    <string name="updateUserHeader">Update Username:</string>
+    <string name="usernameHint">Enter new username here</string>
+
+    <string name="spoonKey">bacd18c90f9a4728a7a6ce5dfb67d765</string>
+    <string name="spoonBase">https://api.spoonacular.com/</string>
+    <string name="searchTitle">Cooking Over Easy</string>
+    <string name="grocery_list_title">Grocery List</string>
+    <string name="recipeDetailsBack">Go back to recipe search</string>
+    <string name="favoriteRecipe">Favorite this recipe</string>
+
+    <!-- Recipe tags for search spinner -->
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>fingerfood</item>
+        <item>snack</item>
+        <item>drink</item>
+    </string-array>
+
+    <string-array name="ingredientTags">
+        <item>Place-Holder</item>
+    </string-array>
+
+    <string-array name="dietList"> <!--' '-->
+        <item>Low-Carb</item> <!--' '-->
+        <item>Low-Fat</item> <!--' '-->
+        <item>Low-Sodium</item> <!--' '-->
+        <item>Kosher</item> <!--' '-->
+        <item>Paleo</item> <!--' '-->
+        <item>Vegan</item> <!--' '-->
+        <item>Vegetarian</item> <!--' '-->
+        <item>Pescatarian</item> <!--' '-->
+    </string-array> <!--' '-->
+
+    <string-array name="allergyList"> <!--' '-->
+        <item>Lactose</item><!--' '-->
+        <item>Gluten</item><!--' '-->
+        <item>Peanut</item><!--' '-->
+        <item>Treenut</item><!--' '-->
+        <item>Red Meats</item><!--' '-->
+        <item>Shell Fish</item><!--' '-->
+        <item>Soy</item><!--' '-->
+    </string-array><!--' '-->
+
+    <string-array name="preferredProteins"><!--' '-->
+        <item>Fish</item><!--' '-->
+        <item>Red Meat</item><!--' '-->
+        <item>Pork</item><!--' '-->
+        <item>Chicken</item><!--' '-->
+    </string-array><!--' '-->
+
+
+</resources>

@@ -1,0 +1,7 @@
+Skyla Lloyd
+Junior
+CS-Software Engineering
+
+Sprint 1 (developer)- Created Project, made splash screen, created welcome screen that would appear only upon first download, created and styled navigation bar, created grocery list page
+Sprint 2 (project manager, tester)-
+Sprint 3 (developer)- 

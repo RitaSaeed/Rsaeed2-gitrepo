@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cookbook"
+        android:title="CookBook"
+        android:icon="@drawable/baseline_favorite_24" />
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_24"/>
+    <item android:id="@+id/addrecipe"
+        android:title="Add Recipe"
+        android:icon="@drawable/baseline_add_circle_24"/>
+    <item android:id="@+id/grocerylist"
+        android:title="Grocery List"
+        android:icon="@drawable/baseline_grocerylist_rtl_24"/>
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/baseline_preferencessettings_outline_24"/>
+</menu>

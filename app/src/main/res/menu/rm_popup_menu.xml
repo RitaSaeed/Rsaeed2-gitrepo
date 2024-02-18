@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/rmSelectItems"
+        android:title="Remove Selected Items"/>
+
+    <item android:id="@+id/rmAll"
+        android:title="Remove All"/>
+
+    <item android:id="@+id/uncheckAll"
+        android:title="Uncheck All"/>
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundYellow"
+    tools:context=".GroceryListFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearIngredient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightyellow"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewRemove"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:src="@drawable/grocerymore" />
+
+            <TextView
+                android:id="@+id/groceryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/grocery_list_title"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:fontFamily="@font/playfair"
+                android:textFontWeight="1000" />
+
+            <ImageView
+                android:id="@+id/addIcon"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/groceryadd" />
+            <ImageView
+                android:id="@+id/backIcon"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_grocery_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:background="@color/backgroundYellow" />
+
+        <SearchView
+            android:id="@+id/searchViewSearchIngredient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/search_view_bg"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search here ..."
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_searchIngredient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/list_ingredient_search"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
